@@ -2,3 +2,62 @@ html {
     height: 100%;
     width: 100%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+
+}
+
+h1 {
+  color: red;
+  font-size: 60px;
+  align-self: center;
+}
+
+.image-container {
+  display: flex;
+
+}
+.image-container__image {
+  flex-wrap: wrap;
+  margin-right: 30px;
+  width: 400px;
+}
+
+.image-container__desc {
+  font-size: 20px;
+  margin-top: 88px;
+  text-align: justify;
+  line-height: 30px;
+}
+h3 {
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  font-size: 22px;
+}
+
+em {
+  padding-left: 8px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.logo-deezer {
+  width: 30px;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: purple;
+  font-size: 18px;
+}

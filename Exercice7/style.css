@@ -51,3 +51,33 @@ section {
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin-right: 0;
+}
+}
+
+
+ /* Votre tâche est d'ajouter des styles CSS pour rendre le site Web responsif et adapté aux appareils mobiles (avec un écran de maximum `768px`).
+
+1. **Analysez** la structure HTML
+existante et identifiez les parties
+ du site Web qui doivent être adaptées
+  pour les appareils mobiles.
+2. Utilisez les **media querie**s en
+CSS pour **définir** des styles
+spécifiques aux écrans de petite
+taille (max 768px) :
+    - le titre principal doit avoir
+    une police de 20px
+    - les éléments de navigation
+    doivent s'afficher sur une seule
+    colonne et être centrés */
